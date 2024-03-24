@@ -41,6 +41,7 @@ public class SituationController {
 	@DeleteMapping("/delete/{id}")
 	public boolean deleteSituation(@PathVariable int id) {
 		return this.service.deleteSituation(id);
+		
 
 	}
 

@@ -34,6 +34,7 @@ public class SituationService {
 	public boolean deleteSituation(int id) {
 		this.repo.deleteById(id);
 		return !this.repo.existsById(id);
+		
 	}
 	
 	
