@@ -7,4 +7,5 @@ import com.lbg.ProjectAnna.domain.Person;
 
 public interface PersonRepo  extends JpaRepository<Person, Integer>{
 
+	
 }

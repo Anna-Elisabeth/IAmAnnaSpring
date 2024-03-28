@@ -26,6 +26,7 @@ public class PersonService {
 		this.repo = repo;
 	}
 
+	
 	 public ResponseEntity<Person> createPerson(Person newPerson) {
 		    Person created = this.repo.save(newPerson);
 		    return new ResponseEntity<Person>(created, HttpStatus.CREATED);

@@ -13,7 +13,7 @@ public class Person {
 	private Integer id;
 	
 	private String characterName;
-
+ 
 	public Person() {
 		super();
 		// TODO Auto-generated constructor stub
