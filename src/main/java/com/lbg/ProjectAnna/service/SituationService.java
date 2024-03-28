@@ -31,4 +31,13 @@ public class SituationService {
 		return this.repo.findAll();
 	}
 
+	public boolean deleteSituation(int id) {
+		this.repo.deleteById(id);
+		return !this.repo.existsById(id);
+		
+	}
+	
+	
+
+
 }
