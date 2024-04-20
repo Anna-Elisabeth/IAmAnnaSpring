@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.lbg.ProjectAnna.domain.Challenge;
-import com.lbg.ProjectAnna.domain.Person;
+
 import com.lbg.ProjectAnna.service.ChallengeService;
-import com.lbg.everestbe.domain.Item;
+
 
 @RestController
 @RequestMapping("/challenge")
